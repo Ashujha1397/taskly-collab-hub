@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { X, Calendar, Clock, User, Tag, AlertCircle } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '@/components/ui/dialog';
@@ -59,8 +58,17 @@ export const TaskModal: React.FC<TaskModalProps> = ({
   useEffect(() => {
     if (initialData) {
       setFormData(initialData);
+    } else {
+      // Reset form when creating a new task
+      setFormData({
+        title: '',
+        description: '',
+        status: 'todo',
+        priority: 'medium',
+        tags: [],
+      });
     }
-  }, [initialData]);
+  }, [initialData, open]);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
