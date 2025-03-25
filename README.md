@@ -159,8 +159,4 @@ VITE_APP_ENV=development
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 📞 Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
-
-Project Link: [https://github.com/yourusername/taskflow](https://github.com/yourusername/taskflow)
