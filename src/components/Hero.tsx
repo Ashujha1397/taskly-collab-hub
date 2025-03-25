@@ -150,25 +150,25 @@ const features = [
   {
     name: 'Intuitive Task Management',
     description:
-      'Create, assign, and track tasks with ease. Set priorities, deadlines, and detailed descriptions to keep everyone aligned.',
+      "Create, assign, and track tasks with ease. Set priorities, deadlines, and detailed descriptions to keep everyone aligned.",
     icon: Check,
   },
   {
     name: 'Collaborative Workspaces',
     description:
-      'Work together seamlessly with shared project spaces, real-time updates, and clear ownership of tasks and responsibilities.',
+      "Work together seamlessly with shared project spaces, real-time updates, and clear ownership of tasks and responsibilities.",
     icon: Check,
   },
   {
     name: 'Visual Progress Tracking',
     description:
-      'Monitor project progress with elegant visual indicators. Instantly see what needs attention and what's on track.',
+      "Monitor project progress with elegant visual indicators. Instantly see what needs attention and what's on track.",
     icon: Check,
   },
   {
     name: 'Customizable Workflows',
     description:
-      'Adapt TaskFlow to your team's unique processes with flexible workflows, custom labels, and personalized views.',
+      "Adapt TaskFlow to your team's unique processes with flexible workflows, custom labels, and personalized views.",
     icon: Check,
   },
 ];
