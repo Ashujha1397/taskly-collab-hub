@@ -1,8 +1,6 @@
 
 # TaskFlow - Collaborative Task Management Platform
 
-![TaskFlow](https://github.com/yourusername/taskflow/raw/main/public/placeholder.svg)
-
 A modern, responsive task management application built with React, TypeScript, and Tailwind CSS. TaskFlow helps teams collaborate effectively by providing an intuitive interface for managing tasks, projects, and deadlines.
 
 ## 🚀 Features
@@ -158,5 +156,3 @@ VITE_APP_ENV=development
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-
