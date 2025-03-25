@@ -117,15 +117,17 @@ const Dashboard = () => {
 
   const handleSaveTask = (taskData: TaskFormData) => {
     if (modalMode === 'create') {
+      // Ensure id is always provided for new tasks
       const newTask: Task = {
         ...taskData,
-        id: uuidv4(),
+        id: taskData.id || uuidv4(), // Use provided id or generate a new one
       };
       setTasks([...tasks, newTask]);
       toast.success("Task created successfully");
     } else {
+      // For editing, ensure we're maintaining the correct types
       const updatedTasks = tasks.map((task) =>
-        task.id === taskData.id ? { ...taskData } : task
+        task.id === taskData.id ? { ...taskData as Task } : task
       );
       setTasks(updatedTasks);
       toast.success("Task updated successfully");
